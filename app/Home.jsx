@@ -8,7 +8,9 @@
 // import Collaboration from "./collaboration/Collaboration";
 // import PopularCourses from "./popular courses/PopularCourses";
 
+import PopularCourses from "@/components/popular courses/PopularCourses";
 import Banner from "./Banner";
+import ContentSlider from "./ContentSlider";
 
 
 
@@ -17,8 +19,8 @@ const Home = () => {
         <div>
 
           <Banner></Banner>
-          {/* <ContentSlider></ContentSlider> */}
-          {/* <PopularCourses></PopularCourses> */}
+          <ContentSlider></ContentSlider>
+          <PopularCourses></PopularCourses>
           {/* <Achievement></Achievement> */}
           {/* <Solution></Solution> */}
           {/* <HomeCourses></HomeCourses> */}
