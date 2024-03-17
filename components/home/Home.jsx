@@ -1,14 +1,12 @@
-import PopularCourses from "@/components/popular courses/PopularCourses";
+import Achievement from "./Achievement";
 import Banner from "./Banner";
 import ContentSlider from "./ContentSlider";
-import Achievement from "./Achievement";
-import Solution from "./Solution";
+import Counts from "./Counts";
 import HomeCourses from "./HomeCourses";
 import Providing from "./Providing";
-import Counts from "./Counts";
-import Collaboration from "@/components/collaboration/Collaboration";
-
-
+import Solution from "./Solution";
+import Collaboration from "./collaboration/Collaboration";
+import PopularCourses from "./popular courses/PopularCourses";
 
 const Home = () => {
     return (
